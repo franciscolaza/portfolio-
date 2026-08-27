@@ -36,6 +36,7 @@ export const skillCategories = [
     title: { fr: 'Outils', en: 'Tools' },
     skills: [
       { name: 'Git', tags: [{ fr: 'Versioning', en: 'Versioning' }] },
+      { name: 'n8n', tags: [{ fr: 'Automatisation', en: 'Automation' }] },
       { name: 'Postman', tags: [{ fr: 'API', en: 'API' }] },
       { name: 'VS Code', tags: [{ fr: 'Éditeur', en: 'Editor' }] },
       { name: 'Excel', tags: [{ fr: 'Bureautique', en: 'Office' }] },
