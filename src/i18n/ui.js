@@ -1,0 +1,248 @@
+export const ui = {
+  fr: {
+    nav: {
+      work: 'Travaux',
+      about: 'À propos',
+      design: 'Design',
+      code: 'Code',
+      contact: 'Contact',
+      letsTalk: "Discutons →",
+    },
+    hero: {
+      headlinePre: 'Là où la ',
+      headlineHighlight: 'créativité',
+      headlineMid: ' rencontre le ',
+      headlineOutline: 'code',
+      signatureRoles: 'Designer Graphique × Développeur Web × Technologie Géospatiale',
+      ctaProjects: 'Voir mes projets',
+      ctaContact: 'Me contacter',
+      cvDownload: 'Télécharger mon CV',
+      cvUnavailable: 'CV disponible sur demande',
+    },
+    heroVisual: {
+      designerLabel: 'designer',
+      designerTag: 'Designer produit spécialisé en UI design & identité visuelle',
+      coderLabel: 'coder',
+      coderTag: 'Développeur front-end qui écrit un code propre, élégant et efficace',
+    },
+    about: {
+      label: 'Qui suis-je ?',
+      titleLine1: 'Plus qu’un développeur.',
+      titleLine2: 'Plus qu’un designer.',
+      intro:
+        'Je crée des identités visuelles, des expériences digitales et des applications web en combinant design thinking et développement technique.',
+    },
+    expertise: {
+      label: 'Positionnement',
+      title: 'Deux facettes. Un seul esprit créatif.',
+      kickerDesign: 'JE DESIGN.',
+      kickerDev: 'JE CODE.',
+    },
+    design: {
+      label: 'Design graphique',
+      title: 'Travaux sélectionnés.',
+      description:
+        "Des idées visuelles concrétisées — identité visuelle, communication graphique, UI design et création digitale.",
+      comingSoon: 'Prochain projet — en attente',
+      footerText:
+        "Ma galerie de réalisations graphiques s'enrichit progressivement. Une idée, un projet ou envie de voir plus de travaux ?",
+    },
+    creativeCode: {
+      label: 'Code Créatif',
+      titlePre: 'Le code est mon autre ',
+      titleHighlight: 'medium',
+      description:
+        "Entre design et développement, le code devient un outil créatif : structuré, précis, mais toujours au service d'une idée visuelle.",
+    },
+    projects: {
+      label: 'Développement Web',
+      title: 'Réalisations sélectionnées.',
+      description:
+        "Des idées transformées en produits numériques — une sélection de projets menés en tant que développeur frontend, du web mapping aux applications métier.",
+      projectLabel: 'Projet',
+      github: 'GitHub',
+      demo: 'Démo',
+    },
+    skills: {
+      label: 'Savoir-faire',
+      title: 'Technologies & outils',
+      description:
+        "Un ensemble d'outils et de langages que j'utilise pour concevoir des applications web et logicielles complètes.",
+    },
+    geospatial: {
+      label: 'Identité unique',
+      title: 'Geospatial × Code × Data',
+      description:
+        'Un profil qui allie développement logiciel et ingénierie géospatiale pour construire des solutions cartographiques et data-driven.',
+      vectorLayer: 'Couche vectorielle',
+    },
+    experience: {
+      label: 'Parcours',
+      title: 'Expériences professionnelles',
+    },
+    education: {
+      label: 'Académique',
+      title: 'Formation',
+      ongoing: 'En cours',
+    },
+    languagesSection: {
+      commLabel: 'Communication',
+      langTitle: 'Langues',
+      softLabel: 'Savoir-être',
+      qualitiesTitle: 'Qualités',
+    },
+    services: {
+      label: 'Ce que je propose',
+      title: 'Ce que je peux créer',
+    },
+    contact: {
+      label: 'Contact',
+      titlePre: 'Créons quelque chose de ',
+      titleHighlight: 'formidable',
+      description: 'Vous avez une idée ? Un projet ? Une identité à créer ? Une application à développer ?',
+      email: 'Email',
+      phone: 'Téléphone',
+      location: 'Localisation',
+      formName: 'Nom',
+      formEmail: 'Email',
+      formSubject: 'Sujet',
+      formMessage: 'Message',
+      placeholderName: 'Votre nom',
+      placeholderEmail: 'vous@exemple.com',
+      placeholderSubject: 'Sujet de votre message',
+      placeholderMessage: 'Votre message...',
+      errorName: 'Le nom est requis.',
+      errorEmailRequired: "L'email est requis.",
+      errorEmailInvalid: 'Format email invalide.',
+      errorSubject: 'Le sujet est requis.',
+      errorMessage: 'Le message est requis.',
+      send: 'Envoyer',
+      sentMessage: "Votre client email va s'ouvrir pour finaliser l'envoi.",
+    },
+    footer: {
+      roleLine: 'Designer Graphique × Développeur Web',
+    },
+  },
+  en: {
+    nav: {
+      work: 'Work',
+      about: 'About',
+      design: 'Design',
+      code: 'Code',
+      contact: 'Contact',
+      letsTalk: "Let's talk →",
+    },
+    hero: {
+      headlinePre: 'Where ',
+      headlineHighlight: 'creativity',
+      headlineMid: ' meets ',
+      headlineOutline: 'code',
+      signatureRoles: 'Graphic Designer × Web Developer × Geospatial Technology',
+      ctaProjects: 'View my projects',
+      ctaContact: 'Get in touch',
+      cvDownload: 'Download my CV',
+      cvUnavailable: 'CV available on request',
+    },
+    heroVisual: {
+      designerLabel: 'designer',
+      designerTag: 'Product designer specialising in UI design & visual identity',
+      coderLabel: 'coder',
+      coderTag: 'Front-end developer who writes clean, elegant, efficient code',
+    },
+    about: {
+      label: 'Who am I?',
+      titleLine1: 'More than a developer.',
+      titleLine2: 'More than a designer.',
+      intro:
+        'I create visual identities, digital experiences and web applications by combining design thinking with technical development.',
+    },
+    expertise: {
+      label: 'Positioning',
+      title: 'Two sides. One creative mind.',
+      kickerDesign: 'I DESIGN.',
+      kickerDev: 'I BUILD.',
+    },
+    design: {
+      label: 'Graphic Design',
+      title: 'Selected works.',
+      description: 'Visual ideas made tangible — identity, graphic communication, UI design and digital creation.',
+      comingSoon: 'Next project — coming soon',
+      footerText:
+        "My gallery of graphic work keeps growing. Got an idea, a project, or want to see more work?",
+    },
+    creativeCode: {
+      label: 'Creative Code',
+      titlePre: 'Code is my other ',
+      titleHighlight: 'medium',
+      description:
+        "Between design and development, code becomes a creative tool: structured, precise, but always in service of a visual idea.",
+    },
+    projects: {
+      label: 'Web Development',
+      title: 'Selected builds.',
+      description:
+        'Ideas transformed into digital products — a selection of projects built as a frontend developer, from web mapping to business applications.',
+      projectLabel: 'Project',
+      github: 'GitHub',
+      demo: 'Demo',
+    },
+    skills: {
+      label: 'Skills',
+      title: 'Technologies & Tools',
+      description: 'A set of tools and languages I use to design complete web and software applications.',
+    },
+    geospatial: {
+      label: 'Unique Identity',
+      title: 'Geospatial × Code × Data',
+      description:
+        'A profile that combines software development and geospatial engineering to build mapping and data-driven solutions.',
+      vectorLayer: 'Vector Layer',
+    },
+    experience: {
+      label: 'Journey',
+      title: 'Professional Experience',
+    },
+    education: {
+      label: 'Academic',
+      title: 'Education',
+      ongoing: 'Ongoing',
+    },
+    languagesSection: {
+      commLabel: 'Communication',
+      langTitle: 'Languages',
+      softLabel: 'Soft skills',
+      qualitiesTitle: 'Qualities',
+    },
+    services: {
+      label: 'What I offer',
+      title: 'What I can create',
+    },
+    contact: {
+      label: 'Contact',
+      titlePre: "Let's create something ",
+      titleHighlight: 'great',
+      description: 'Have an idea? A project? An identity to create? An application to build?',
+      email: 'Email',
+      phone: 'Phone',
+      location: 'Location',
+      formName: 'Name',
+      formEmail: 'Email',
+      formSubject: 'Subject',
+      formMessage: 'Message',
+      placeholderName: 'Your name',
+      placeholderEmail: 'you@example.com',
+      placeholderSubject: 'Subject of your message',
+      placeholderMessage: 'Your message...',
+      errorName: 'Name is required.',
+      errorEmailRequired: 'Email is required.',
+      errorEmailInvalid: 'Invalid email format.',
+      errorSubject: 'Subject is required.',
+      errorMessage: 'Message is required.',
+      send: 'Send',
+      sentMessage: 'Your email client will open to finish sending.',
+    },
+    footer: {
+      roleLine: 'Graphic Designer × Web Developer',
+    },
+  },
+}
